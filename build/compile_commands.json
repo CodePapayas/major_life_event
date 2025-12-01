@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/mnt/c/users/zachw/repos/major_life_event/build",
+  "command": "/usr/bin/c++  -I/mnt/c/users/zachw/repos/major_life_event/src -std=gnu++17 -o CMakeFiles/major_life_event_lib.dir/src/environment.cpp.o -c /mnt/c/users/zachw/repos/major_life_event/src/environment.cpp",
+  "file": "/mnt/c/users/zachw/repos/major_life_event/src/environment.cpp",
+  "output": "CMakeFiles/major_life_event_lib.dir/src/environment.cpp.o"
+},
+{
+  "directory": "/mnt/c/users/zachw/repos/major_life_event/build",
+  "command": "/usr/bin/c++  -I/mnt/c/users/zachw/repos/major_life_event/src -std=gnu++17 -o CMakeFiles/major_life_event_lib.dir/src/agent.cpp.o -c /mnt/c/users/zachw/repos/major_life_event/src/agent.cpp",
+  "file": "/mnt/c/users/zachw/repos/major_life_event/src/agent.cpp",
+  "output": "CMakeFiles/major_life_event_lib.dir/src/agent.cpp.o"
+},
+{
+  "directory": "/mnt/c/users/zachw/repos/major_life_event/build",
+  "command": "/usr/bin/c++  -I/mnt/c/users/zachw/repos/major_life_event/src -std=gnu++17 -o CMakeFiles/major_life_event_lib.dir/src/brain.cpp.o -c /mnt/c/users/zachw/repos/major_life_event/src/brain.cpp",
+  "file": "/mnt/c/users/zachw/repos/major_life_event/src/brain.cpp",
+  "output": "CMakeFiles/major_life_event_lib.dir/src/brain.cpp.o"
+},
+{
+  "directory": "/mnt/c/users/zachw/repos/major_life_event/build",
+  "command": "/usr/bin/c++  -I/mnt/c/users/zachw/repos/major_life_event/tests -I/mnt/c/users/zachw/repos/major_life_event/src -std=gnu++17 -o CMakeFiles/tests.dir/tests/test_env.cpp.o -c /mnt/c/users/zachw/repos/major_life_event/tests/test_env.cpp",
+  "file": "/mnt/c/users/zachw/repos/major_life_event/tests/test_env.cpp",
+  "output": "CMakeFiles/tests.dir/tests/test_env.cpp.o"
+}
+]

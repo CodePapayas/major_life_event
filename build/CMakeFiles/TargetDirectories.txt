@@ -1,0 +1,5 @@
+/mnt/c/users/zachw/repos/major_life_event/build/CMakeFiles/major_life_event_lib.dir
+/mnt/c/users/zachw/repos/major_life_event/build/CMakeFiles/tests.dir
+/mnt/c/users/zachw/repos/major_life_event/build/CMakeFiles/test.dir
+/mnt/c/users/zachw/repos/major_life_event/build/CMakeFiles/edit_cache.dir
+/mnt/c/users/zachw/repos/major_life_event/build/CMakeFiles/rebuild_cache.dir

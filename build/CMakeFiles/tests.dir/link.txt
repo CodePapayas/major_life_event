@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests.dir/tests/test_env.cpp.o -o tests  libmajor_life_event_lib.a 
