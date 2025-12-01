@@ -12,6 +12,9 @@ TEST_CASE("Grid test case") {
 
 TEST_CASE("Grid edge cases") {
     Biome biome;
-    
-    auto grid2 = biome.generate_grid(0, 0);
+    CHECK_THROWS_WITH(biome.generate_grid(-2, 2), "Rows cannot be 0 or a negative integer.");
+    CHECK_THROWS_WITH(biome.generate_grid(0, 1), "Rows cannot be 0 or a negative integer.");
+    CHECK_THROWS_WITH(biome.generate_grid(0, 0), "Rows cannot be 0 or a negative integer.");
+    CHECK_THROWS_WITH(biome.generate_grid(1, 0), "Columns cannot be 0 or a negative integer.");
+    CHECK_THROWS_WITH(biome.generate_grid(1, -4), "Columns cannot be 0 or a negative integer.");
 }
