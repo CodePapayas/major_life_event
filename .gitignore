@@ -39,3 +39,28 @@
 
 # debug information files
 *.dwo
+
+# Build directory
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Trunk
+.trunk/out/
+.trunk/logs/
+.trunk/plugins/
+.trunk/tools/
+.trunk/notifications/
+
+# VS Code
+.vscode/
+
+# IDE
+*.swp
+*.swo
+*~
