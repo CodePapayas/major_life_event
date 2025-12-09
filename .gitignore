@@ -49,6 +49,9 @@ CMakeFiles/
 cmake_install.cmake
 compile_commands.json
 Makefile
+CTestTestfile.cmake
+CTestCustom.cmake
+Testing/
 
 # Trunk
 .trunk/out/
@@ -64,3 +67,7 @@ Makefile
 *.swp
 *.swo
 *~
+
+# Tests
+tests/
+tests/doctest.h

@@ -4,6 +4,12 @@ project(major_life_event)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Enable clang-tidy during builds when available
+find_program(CLANG_TIDY_EXE NAMES clang-tidy)
+if(CLANG_TIDY_EXE)
+    set(CMAKE_CXX_CLANG_TIDY "${CLANG_TIDY_EXE}")
+endif()
+
 # Source files (excluding main if you have one)
 set(SRC_FILES
     src/environment.cpp
