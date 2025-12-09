@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmajor_life_event_lib.a CMakeFiles/major_life_event_lib.dir/src/environment.cpp.o CMakeFiles/major_life_event_lib.dir/src/agent.cpp.o CMakeFiles/major_life_event_lib.dir/src/brain.cpp.o
-/usr/bin/ranlib libmajor_life_event_lib.a
