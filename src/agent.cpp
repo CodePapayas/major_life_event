@@ -1,4 +1,5 @@
 #include "agent.hpp"
+#include <stdexcept>
 
 Agent::Agent() {
     traits.aggression = 0.0f;
@@ -66,40 +67,83 @@ bool Agent::getPredatorStatus() const {
 
 // Setter methods
 void Agent::setAttack(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Attack cannot be less than 0.0f");
+    }
+
     traits.attack = value;
 };
 
 void Agent::setAggression(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Aggression cannot be less than 0.0f");
+    }
+
     traits.aggression = value;
 };
 
 void Agent::setAwareness(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Awareness cannot be less than 0.0f");
+    }
+
     traits.awareness = value;
 };
 
-void Agent::setDefense(float value)
-{
+void Agent::setDefense(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Defense cannot be less than 0.0f");
+    }
+
     traits.defense = value;
 };
 void Agent::setIntelligence(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Intelligence cannot be less than 0.0f");
+    }
+
     traits.intelligence = value;
 };
 void Agent::setMetabolism(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Metabolism cannot be less than 0.0f");
+    }
+
     traits.metabolism = value;
 };
 void Agent::setMutationRate(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Mutation rate cannot be less than 0.0f");
+    }
+
     traits.mutation_rate = value;
 };
 void Agent::setReproductionCost(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Reproduction cost cannot be less than 0.0f");
+    }
+
     traits.reproduction_cost = value;
 };
 void Agent::setSpeed(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Speed cannot be less than 0.0f");
+    }
+
     traits.speed = value;
 };
 void Agent::setVision(float value) {
+    if (value < 0.0f) {
+        throw std::runtime_error("Vision cannot be less than 0.0f");
+    }
+
     traits.vision = value;
 };
 void Agent::setExpirationDate(int value) {
+    if (value < 0) {
+        throw std::runtime_error("Natural expiration cannot be less than 0");
+    }
+
     traits.natural_expiration = value;
 };
 void Agent::setPredatorStatusTrue() {

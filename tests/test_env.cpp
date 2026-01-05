@@ -81,4 +81,15 @@ TEST_CASE("Agent setter test cases") {
     CHECK(agent.getPredatorStatus() == false);
 
     // Setter boundary tests
+    CHECK_THROWS_WITH(agent.setAttack(-1.1f), "Attack cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setAggression(-1.1f), "Aggression cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setAwareness(-1.1f), "Awareness cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setDefense(-1.1f), "Defense cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setIntelligence(-1.1f), "Intelligence cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setMetabolism(-1.1f), "Metabolism cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setMutationRate(-1.1f), "Mutation rate cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setReproductionCost(-1.1f), "Reproduction cost cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setSpeed(-1.1f), "Speed cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setVision(-1.1f), "Vision cannot be less than 0.0f");
+    CHECK_THROWS_WITH(agent.setExpirationDate(-1.1f), "Natural expiration cannot be less than 0");
 };
